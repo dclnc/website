@@ -75,17 +75,28 @@ hr {
   margin-bottom: 2.5rem;
 }
 
+.post-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+
 .post-date {
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: #666;
-  margin-bottom: 0.25rem;
+}
+
+.post-sep {
+  font-size: 1rem;
+  color: #444;
 }
 
 .post-title {
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 600;
   color: #fff;
-  margin-bottom: 0.5rem;
 }
 
 .post-body {

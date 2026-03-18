@@ -18,8 +18,11 @@ fetch("posts.json")
         const dateStr = `${d}/${m}/${y.slice(2)}`;
 
         article.innerHTML = `
-          <div class="post-date">${dateStr}</div>
-          <div class="post-title">${post.title}</div>
+          <div class="post-header">
+            <span class="post-title">${post.title}</span>
+            <span class="post-sep">|</span>
+            <span class="post-date">${dateStr}</span>
+          </div>
           <div class="post-body">${body}</div>
         `;
         blog.appendChild(article);
