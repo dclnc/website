@@ -19,7 +19,13 @@ header {
   margin: 0 auto;
 }
 
-hr, main {
+hr {
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
   max-width: 640px;
   margin-left: auto;
   margin-right: auto;
