@@ -91,6 +91,7 @@ hr {
 .post-body {
   color: #ccc;
   font-size: 0.95rem;
+  text-align: justify;
 }
 
 .post-body p {
