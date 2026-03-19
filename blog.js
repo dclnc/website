@@ -19,8 +19,6 @@ fetch("posts.json")
 
         article.innerHTML = `
           <div class="post-header">
-            <span class="post-title">${post.title}</span>
-            <span class="post-sep">|</span>
             <span class="post-date">${dateStr}</span>
           </div>
           <div class="post-body">${body}</div>
